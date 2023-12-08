@@ -8,7 +8,7 @@ The software depends on Adafruit itertools library which must be installed in /l
 ## Installatoin
 1. Install CirquitPython on your board. Instruction can be found on Release Notes for the release you selected on the [CirquitPython for Tiny 2040 page](https://circuitpython.org/board/pimoroni_tiny2040/)
 2. Download [Adafruit_CircuitPython_Bundle] and unpack it and copy adafruit_itertools folder to /lib on your board flash drive
-3. Copy the code.py file to the root of the board flash drive. From this point the program starts woring.
+3. Copy the code.py file to the root of the board flash drive. From this point the program starts working.
 
 ## Debug and Troubleshooting
 You can connect serial console via USB serial link to see log messages. You can use MUEditor software that can special editing mode for CirquitPython and built in serial console.

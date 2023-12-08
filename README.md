@@ -13,4 +13,5 @@ The software depends on Adafruit itertools library which must be installed in /l
 ## Debug and Troubleshooting
 You can connect serial console via USB serial link to see log messages. You can use MUEditor software that can special editing mode for CirquitPython and built in serial console.
 Pressing Boot button will dump some debug information on console, this will allow you to trim/adjust your throttle signal. Works only there's a valid PWM available. Does not work on Failsafe.
+The throttle signal is expected to be a PWM pulse thatn has width from 1000 to 2000 uS. The center (parked) position is 1500 uS. The range from 1500 to 2000 uS is forward movement, the range from 1000 to 1500 is backward movement. 
 
